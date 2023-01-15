@@ -1,8 +1,10 @@
 # Some notes about advanced analysis techniques on guloader
 
+[Link to sample](https://malshare.com/sample.php?action=detail&hash=e3a8356689b97653261ea6b75ca911bc65f523025f15649e87b1aef0071ae107)
+
 1.) how to update the ida veh plugin to generate a cleaner binary  
-2.) using concolic execution with triton to obtain the output buffer  
-3.) using symolic buffers in triton to extract the algo of the function and rip it into python  
+2.) using concolic execution with triton to obtain the output buffer of a sample key generation function  
+3.) using symbolic buffers in triton to extract the algo of the function and rip it into python  
 4.) why IDA's constant folding fails and guloaders technique for obfuscating variable access  
 
 ## 1. Updating the VEH Plugin Patcher
